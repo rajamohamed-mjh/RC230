@@ -7,6 +7,10 @@
       Price: <%= number_to_currency(product.price) %> |
       <%= link_to "Read Reviews", product_reviews_path(product) %>
     </div>
+    <p id="pdf_link">
+  <%= link_to "Download Invoice (PDF)", product_path(product, :format => "pdf") %>
+</p>
+
   </div>
 <% end %>
 

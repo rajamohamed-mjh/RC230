@@ -16,6 +16,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'has_scope'
 gem 'devise'
+gem 'pdfkit'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
